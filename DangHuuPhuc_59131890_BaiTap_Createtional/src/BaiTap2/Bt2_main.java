@@ -15,7 +15,7 @@ public class Bt2_main
     {
         MyStringBuilder str = new MyStringBuilder.Builder()
                 .addString("Dang Huu Phuc_59131890 ")
-                .addFloat(9.0F)
+                .addFloat(9.0F )
                 .addBool(true)                
                 .build();
         System.out.println(str.toString());

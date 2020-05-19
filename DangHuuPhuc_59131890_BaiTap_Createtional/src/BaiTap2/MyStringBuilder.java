@@ -39,10 +39,10 @@ public class MyStringBuilder
         public Builder() 
         {}
                 
-        public Builder addString(String s) 
+        public Builder addString(String str) 
         {
             
-            this.str = this.str.concat(s);
+            this.str = this.str.concat(str);
             return this;
         }
         public MyStringBuilder build() 

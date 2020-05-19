@@ -16,8 +16,7 @@ public class Bt1_main
 {
     public static void main(String[] args)
     {
-        HoaDonHeader HDH = new HoaDonHeader
-        ("HD1", "17/05/2020","Đặng Hữu Phúc");
+        HoaDonHeader HDH = new HoaDonHeader("HD1", "17/05/2020","Đặng Hữu Phúc");
         CTHD CTHD1 = new CTHD("Rau Dền",3,10000,0);
         CTHD CTHD2 = new CTHD("Củ Cải",10,250000,0.3);
         CTHD CTHD3 = new CTHD("Dưa Hấu",1,150000,0.5);
